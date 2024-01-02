@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Helping Hands</string>
+    <string-array name="is_role_list">
+        <item>Doner</item>
+        <item>Deserver</item>
+        <item>Trust</item>
+    </string-array>
+    <string-array name="predict">
+        <item>Dir</item>
+        <item>Abbotabad</item>
+    </string-array>
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    <string name="title_activity_profile">Profile</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

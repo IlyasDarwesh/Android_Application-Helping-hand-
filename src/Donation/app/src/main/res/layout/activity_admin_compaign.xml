@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".admin.AdminCompaign">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Compaign"
+        android:textSize="26dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:typeface="serif"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="26dp"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="6dp">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+           <EditText
+               android:id="@+id/et_title"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="16dp"
+               android:hint="Enter Title"/>
+           <EditText
+               android:id="@+id/et_description"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:ems="10"
+               android:layout_margin="16dp"
+               android:gravity="start|top"
+               android:inputType="textMultiLine" />
+           <EditText
+               android:id="@+id/et_target"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Enter compaign target"
+               android:layout_margin="16dp"
+               android:inputType="number"/>
+           <EditText
+               android:id="@+id/et_date"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:ems="10"
+               android:hint="start: 30/05/2022"
+               android:layout_margin="16dp"
+               android:inputType="date" />
+           <Button
+               android:id="@+id/btn_submit"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_margin="26dp"
+               android:text="Submit"
+               android:textAllCaps="false"/>
+       </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

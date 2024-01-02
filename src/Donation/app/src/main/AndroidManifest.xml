@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.donation">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Donation"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".doner.DonerCompaignList"
+            android:exported="false"
+            android:label="Compaign"
+            android:parentActivityName=".doner.DonerHome"/>
+        <activity
+            android:name=".admin.AdminCompaign"
+            android:exported="false"
+            android:label="Create New Compaign"
+            android:parentActivityName=".admin.AdminHome"/>
+        <activity
+            android:name=".doner.DonerProfile"
+            android:exported="true"
+            android:label="Profile"
+            android:parentActivityName=".doner.DonerHome" />
+        <activity
+            android:name=".doner.DonerTrustList"
+            android:exported="false"
+            android:label="Trust List"
+            android:parentActivityName=".doner.DonerHome" />
+        <activity
+            android:name=".doner.DonerPaymentHistory"
+            android:exported="false"
+            android:label="Payment History"
+            android:parentActivityName=".doner.DonerHome" />
+        <activity
+            android:name=".doner.DonerPredict"
+            android:exported="true"
+            android:label="Predict"
+            android:parentActivityName=".doner.DonerHome"/>
+        <activity
+            android:name=".doner.Pay"
+            android:exported="true"
+            android:theme="@style/NoBar" />
+        <activity
+            android:name=".trust.TrustHome"
+            android:exported="false"
+            android:label="Trust Dashboard" />
+        <activity
+            android:name=".doner.DonerHome"
+            android:exported="true"
+            android:label="Doner Dashboard" />
+        <activity
+            android:name=".deserver.DeserverHome"
+            android:exported="false"
+            android:label="Deserver Dashboard" />
+        <activity
+            android:name=".admin.AdminHome"
+            android:exported="false"
+            android:label="Admin Dashboard" />
+        <activity
+            android:name=".Register"
+            android:exported="true"
+            android:label="Helping Hands Registration"
+            android:parentActivityName=".Login" />
+        <activity
+            android:name=".Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

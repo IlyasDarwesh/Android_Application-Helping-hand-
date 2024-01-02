@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <item
+        android:id="@+id/nav_donate"
+        android:title="Donate"
+        android:icon="@drawable/ic_donation"/>
+
+    <item
+        android:id="@+id/nav_prediction"
+        android:title="Poverty Prediction"
+        android:icon="@drawable/ic_predict"
+        />
+
+<!--    <item-->
+<!--        android:id="@+id/nav_search"-->
+<!--        android:title="Search Trust and Deserver"-->
+<!--        android:icon="@drawable/ic_search"/>-->
+
+    <item
+        android:id="@+id/nav_history"
+        android:title="Payment History"
+        android:icon="@drawable/ic_history"/>
+
+    <item
+        android:id="@+id/nav_compaign"
+        android:title="Compaign"
+        android:icon="@drawable/ic_compaign"/>
+
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_person"/>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout"
+        android:icon="@drawable/power"/>
+
+</menu>
