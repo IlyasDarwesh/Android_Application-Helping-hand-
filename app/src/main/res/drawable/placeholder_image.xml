@@ -1,0 +1,14 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Text message in the center of the placeholder -->
+    <item
+        android:gravity="center"
+        android:width="150dp"
+        android:height="200dp">
+        <bitmap
+            android:src="@drawable/mainpage_icon"
+            android:gravity="center" />
+    </item>
+
+    <!-- Background color for the placeholder -->
+     />
+</layer-list>

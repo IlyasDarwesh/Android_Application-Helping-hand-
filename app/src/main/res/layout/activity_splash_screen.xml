@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#728180"
+    tools:context=".Splash_screen"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_payment_success"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="-150dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="false"
+        app:lottie_rawRes="@raw/animation_splash" />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Abnormal Person Finder"
+        android:textColor="#DABD56"
+        android:layout_marginTop="90dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELLCOME"
+        android:textColor="#DABD56"
+        android:textSize="25dp"
+        android:typeface="serif"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        />
+
+
+</LinearLayout>

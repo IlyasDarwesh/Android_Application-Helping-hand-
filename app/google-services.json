@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1025994573124",
+    "project_id": "abnormal-person-app",
+    "storage_bucket": "abnormal-person-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025994573124:android:d0e2630f503cbb12e58311",
+        "android_client_info": {
+          "package_name": "com.example.abnormal_person_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcyemaSTbPZVMGdJ7etUw_CleHkhSvn-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
